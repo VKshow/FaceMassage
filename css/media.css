@@ -291,7 +291,7 @@
         top: 1px;
     }
     .mobile div span{
-        background-color: #c22770;
+        background-color: #407a51;
     }
     .mobile ul li a:hover{
         color: #c22770;
@@ -397,7 +397,7 @@
     }
     .main__photo {
         width: 49%;
-        margin-left: -20px;
+        
     }
     .main__content {
         width: 45%;
@@ -486,7 +486,7 @@
     .main__photo {
         width: 90%;
         margin-top: 50px;
-        margin-left: -79px;
+        
     }
     .toggle-switcher {
         width: 30%;

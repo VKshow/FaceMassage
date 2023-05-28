@@ -5,6 +5,8 @@
 const switcher = document.getElementById("switcher");
 const activeLabel = document.querySelector(".active-label");
 const inactiveLabel = document.querySelector(".inactive-label");
+const ukr = document.querySelectorAll('.ukr');
+const ru = document.querySelectorAll('.ru');
 
 switcher.addEventListener("change", function() {
   if (this.checked) {
@@ -12,7 +14,12 @@ switcher.addEventListener("change", function() {
     activeLabel.style.color = "#ccc";
     inactiveLabel.style.color = "#2196F3";
     // Add code to convert 
-    
+    ukr.forEach(item =>{
+      item.classList.add('hidden');
+    });
+    ru.forEach(item =>{
+      item.classList.remove('hidden');
+    });
     
     
   } else {
@@ -21,6 +28,12 @@ switcher.addEventListener("change", function() {
     activeLabel.style.color = "#2196F3";
     inactiveLabel.style.color = "#ccc";
     // Add code to convert 
+    ukr.forEach(item =>{
+      item.classList.remove('hidden');
+    });
+    ru.forEach(item =>{
+      item.classList.add('hidden');
+    });
     
    
   }

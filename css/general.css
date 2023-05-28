@@ -233,7 +233,7 @@ input:checked+.slider:before {
 }
 
 .main__subtitle {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,7 +246,7 @@ input:checked+.slider:before {
     line-height: 39px;
     text-align: left;
 
-    color: #AF084E;
+    color: #47a462;
 }
 
 .btn {
@@ -458,14 +458,14 @@ input:checked+.slider:before {
 .descr-six {
     position: absolute;
     top: 81%;
-    left: 69%;
+    left: 70%;
     text-align: left;
 }
 
 .program__main {
     position: absolute;
-    top: 92%;
-    left: 39%;
+    top: 91%;
+    left: 40%;
     width: 299px;
     height: 105px;
     background: #A5927C;
@@ -496,7 +496,7 @@ input:checked+.slider:before {
     line-height: 17px;
     text-align: center;
 
-    color: #AF084E;
+    color: #445c4b;
 }
 
 /* section four */
@@ -617,7 +617,7 @@ input:checked+.slider:before {
     line-height: 66px;
     text-align: center;
 
-    color: #AF084E;
+    color: #47a462;
 }
 
 /* section review */
@@ -895,4 +895,7 @@ color: #000000;
     font-weight: 600;
 }
 
+.hidden{
+    display: none;
+}
 
